@@ -4,12 +4,8 @@
   "description": "A strophe.js plugin for Multi-User Chat (XEP-0045)",
   "main": "lib/strophe.muc.js",
   "directories": {
+    "lib": "lib",
     "test": "test"
-  },
-  "scripts": {
-    "build": "rollup -c",
-    "prepublish": "npm run --silent build",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -28,5 +24,8 @@
   },
   "peerDependencies": {
     "vue-strophe.js": "^1.0.0"
-  }
+  },
+  "keywords": [
+    "strophejs-plugin-muc-vue"
+  ]
 }
