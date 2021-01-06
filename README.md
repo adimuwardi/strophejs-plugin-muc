@@ -5,4 +5,9 @@ Plugin for [strophe.js](https://www.npmjs.com/package/strophe.js) to provide Mul
 ## Install
 
   npm install strophejs-plugin-muc-vue
+  
+  OR
+  
+  yarn add strophejs-plugin-muc-vue
+
 
