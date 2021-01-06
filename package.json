@@ -1,0 +1,32 @@
+{
+  "name": "strophejs-plugin-muc-vue",
+  "version": "0.0.1",
+  "description": "A strophe.js plugin for Multi-User Chat (XEP-0045)",
+  "main": "lib/strophe.muc.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "prepublish": "npm run --silent build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adimuwardi/strophejs-plugin-muc.git"
+  },
+  "author": "sezukahate",
+  "license": "MIT",
+  "bugs": {
+    "url": "htthttps://github.com/adimuwardi/strophejs-plugin-muc/issues"
+  },
+  "homepage": "htthttps://github.com/adimuwardi/strophejs-plugin-muc#readme",
+  "devDependencies": {
+    "coffee-script": "^1.12.6",
+    "rollup": "^0.45.2",
+    "rollup-plugin-coffee-script": "^1.1.0"
+  },
+  "peerDependencies": {
+    "vue-strophe.js": "^1.0.0"
+  }
+}
